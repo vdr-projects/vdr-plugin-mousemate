@@ -1,0 +1,192 @@
+# VDR plugin language source file.
+# Copyright (C) 2007 Klaus Schmidinger <kls@cadsoft.de>
+# This file is distributed under the same license as the VDR package.
+# Klaus Schmidinger <kls@cadsoft.de>, 2000
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VDR 1.5.7\n"
+"Report-Msgid-Bugs-To: <jollyjoe80@yahoo.de>\n"
+"POT-Creation-Date: 2008-05-01 18:22+0200\n"
+"PO-Revision-Date: 2008-02-10 18:28+0100\n"
+"Last-Translator: Klaus Schmidinger <kls@cadsoft.de>\n"
+"Language-Team: <vdr@linuxtv.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-15\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Controls VDR via a mouse"
+msgstr "Bedient VDR mit einer Maus"
+
+msgid "Sensitivity wheel"
+msgstr "Sensitivität Rad"
+
+msgid "Double click time (ms)"
+msgstr "Doppelklick Zeit (ms)"
+
+msgid "Alternative key binding"
+msgstr "Alternative Tastenzuordnung"
+
+msgid "no"
+msgstr "nein"
+
+msgid "yes"
+msgstr "ja"
+
+msgid "Toggle click time (ms)"
+msgstr "Umschaltklick Zeit (ms)"
+
+msgid "Show toggle with scroll lock led"
+msgstr "Umschalten mit Scroll-Lock LED zeigen"
+
+msgid "Toggle automatic off"
+msgstr "Umschalten automatisch aus"
+
+msgid "Toggle off time (ms)"
+msgstr "Umschalten aus nach Zeit (ms)"
+
+msgid "Extra pushed turn events"
+msgstr "Extra gedrückte Dreh-Events"
+
+msgid "Extra x,y turn events"
+msgstr "Extra x,y Dreh-Events"
+
+msgid "Sensitivity x"
+msgstr "Sensitivität x"
+
+msgid "Sensitivity y"
+msgstr "Sensitivität y"
+
+msgid "DVD sensitive replay context"
+msgstr "DVD sensitiver Replay Kontext"
+
+msgid "MP3 sensitive replay context"
+msgstr "MP3 sensitiver Replay Kontext"
+
+msgid "CDDA sensitive replay context"
+msgstr "CDDA sensitiver Replay Kontext"
+
+msgid "IMAGE sensitive replay context"
+msgstr "IMAGE sensitiver Replay Kontext"
+
+msgid "Set keys for context"
+msgstr "Setze Tasten für Kontext"
+
+msgid "Turn wheel left"
+msgstr "Rad links drehen"
+
+msgid "Turn wheel right"
+msgstr "Rad rechts drehen"
+
+msgid "Turn x axis left"
+msgstr "X Achse links drehen"
+
+msgid "Turn x axis right"
+msgstr "X Achse rechts drehen"
+
+msgid "Turn y axis left"
+msgstr "Y Achse links drehen"
+
+msgid "Turn y axis right"
+msgstr "Y Achse rechts drehen"
+
+msgid "Left click"
+msgstr "Klick links"
+
+msgid "Left double-click"
+msgstr "Doppelklick links"
+
+msgid "Middle click"
+msgstr "Klick mitte"
+
+msgid "Middle double-click"
+msgstr "Doppelklick mitte"
+
+msgid "Middle pushed turn left"
+msgstr "Mitte gedrückt links drehen"
+
+msgid "Middle pushed turn right"
+msgstr "Mitte gedrückt rechts drehen"
+
+msgid "Right click"
+msgstr "Klick rechts"
+
+msgid "Right double-click"
+msgstr "Doppelklick rechts"
+
+msgid "Side click"
+msgstr "Klick seite"
+
+msgid "Side double-click"
+msgstr "Doppelklick seite"
+
+msgid "Extra click"
+msgstr "Klick extra"
+
+msgid "Extra double-click"
+msgstr "Doppelklick extra"
+
+msgid "Forward click"
+msgstr "Klick vorwärts"
+
+msgid "Forward double-click"
+msgstr "Doppelklick vorwärts"
+
+msgid "Back click"
+msgstr "Klick zurück"
+
+msgid "Back double-click"
+msgstr "Doppelklick zurück"
+
+msgid "Task click"
+msgstr "Klick task"
+
+msgid "Task double-click"
+msgstr "Doppelklick Task"
+
+msgid "Left pushed turn left"
+msgstr "Links gedrückt links drehen"
+
+msgid "Left pushed turn right"
+msgstr "Links gedrückt rechts drehen"
+
+msgid "Right pushed turn left"
+msgstr "Rechts gedrückt links drehen"
+
+msgid "Right pushed turn right"
+msgstr "Rechts gedrückt rechts drehen"
+
+msgid "Side pushed turn left"
+msgstr "Seite gedrückt links drehen"
+
+msgid "Side pushed turn right"
+msgstr "Seite gedrückt rechts drehen"
+
+msgid "Extra pushed turn left"
+msgstr "Extra gedrückt links drehen"
+
+msgid "Extra pushed turn right"
+msgstr "Extra gedrückt rechts drehen"
+
+msgid "Forward pushed turn left"
+msgstr "Vorwärts gedrückt links drehen"
+
+msgid "Forward pushed turn right"
+msgstr "Vorwärts gedrückt rechts drehen"
+
+msgid "Back pushed turn left"
+msgstr "Zurück gedrückt links drehen"
+
+msgid "Back pushed turn right"
+msgstr "Zurück gedrückt rechts drehen"
+
+msgid "Task pushed turn left"
+msgstr "Task gedrückt links drehen"
+
+msgid "Task pushed turn right"
+msgstr "Task gedrückt rechts drehen"
+
+msgid "Set current key binding for all contexts?"
+msgstr "Aktuelle Tastenzuordnung für alle Kontexte setzen?"
+
+

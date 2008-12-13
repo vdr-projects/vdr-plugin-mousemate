@@ -1,0 +1,191 @@
+# VDR plugin language source file.
+# Copyright (C) 2007 Klaus Schmidinger <kls@cadsoft.de>
+# This file is distributed under the same license as the VDR package.
+# Tomas Prybil <tomas@prybil.se>, 2002
+# Jan Ekholm <chakie@infa.abo.fi>, 2003
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VDR 1.5.7\n"
+"Report-Msgid-Bugs-To: <jollyjoe80@yahoo.de>\n"
+"POT-Creation-Date: 2008-05-01 18:59+0200\n"
+"PO-Revision-Date: 2008-02-10 18:28+0100\n"
+"Last-Translator: Tomas Prybil <tomas@prybil.se>\n"
+"Language-Team: <vdr@linuxtv.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Controls VDR via a mouse"
+msgstr ""
+
+msgid "Sensitivity wheel"
+msgstr ""
+
+msgid "Double click time (ms)"
+msgstr ""
+
+msgid "Alternative key binding"
+msgstr ""
+
+msgid "no"
+msgstr ""
+
+msgid "yes"
+msgstr ""
+
+msgid "Toggle click time (ms)"
+msgstr ""
+
+msgid "Show toggle with scroll lock led"
+msgstr ""
+
+msgid "Toggle automatic off"
+msgstr ""
+
+msgid "Toggle off time (ms)"
+msgstr ""
+
+msgid "Extra pushed turn events"
+msgstr ""
+
+msgid "Extra x,y turn events"
+msgstr ""
+
+msgid "Sensitivity x"
+msgstr ""
+
+msgid "Sensitivity y"
+msgstr ""
+
+msgid "DVD sensitive replay context"
+msgstr ""
+
+msgid "MP3 sensitive replay context"
+msgstr ""
+
+msgid "CDDA sensitive replay context"
+msgstr ""
+
+msgid "IMAGE sensitive replay context"
+msgstr ""
+
+msgid "Set keys for context"
+msgstr ""
+
+msgid "Turn wheel left"
+msgstr ""
+
+msgid "Turn wheel right"
+msgstr ""
+
+msgid "Turn x axis left"
+msgstr ""
+
+msgid "Turn x axis right"
+msgstr ""
+
+msgid "Turn y axis left"
+msgstr ""
+
+msgid "Turn y axis right"
+msgstr ""
+
+msgid "Left click"
+msgstr ""
+
+msgid "Left double-click"
+msgstr ""
+
+msgid "Middle click"
+msgstr ""
+
+msgid "Middle double-click"
+msgstr ""
+
+msgid "Middle pushed turn left"
+msgstr ""
+
+msgid "Middle pushed turn right"
+msgstr ""
+
+msgid "Right click"
+msgstr ""
+
+msgid "Right double-click"
+msgstr ""
+
+msgid "Side click"
+msgstr ""
+
+msgid "Side double-click"
+msgstr ""
+
+msgid "Extra click"
+msgstr ""
+
+msgid "Extra double-click"
+msgstr ""
+
+msgid "Forward click"
+msgstr ""
+
+msgid "Forward double-click"
+msgstr ""
+
+msgid "Back click"
+msgstr ""
+
+msgid "Back double-click"
+msgstr ""
+
+msgid "Task click"
+msgstr ""
+
+msgid "Task double-click"
+msgstr ""
+
+msgid "Left pushed turn left"
+msgstr ""
+
+msgid "Left pushed turn right"
+msgstr ""
+
+msgid "Right pushed turn left"
+msgstr ""
+
+msgid "Right pushed turn right"
+msgstr ""
+
+msgid "Side pushed turn left"
+msgstr ""
+
+msgid "Side pushed turn right"
+msgstr ""
+
+msgid "Extra pushed turn left"
+msgstr ""
+
+msgid "Extra pushed turn right"
+msgstr ""
+
+msgid "Forward pushed turn left"
+msgstr ""
+
+msgid "Forward pushed turn right"
+msgstr ""
+
+msgid "Back pushed turn left"
+msgstr ""
+
+msgid "Back pushed turn right"
+msgstr ""
+
+msgid "Task pushed turn left"
+msgstr ""
+
+msgid "Task pushed turn right"
+msgstr ""
+
+msgid "Set current key binding for all contexts?"
+msgstr ""

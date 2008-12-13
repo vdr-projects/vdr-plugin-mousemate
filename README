@@ -1,0 +1,200 @@
+mousemate is a "plugin" for the Video Disk Recorder (VDR).
+
+Written by:                  Joachim Welker <j.welker@gmx.net>
+                             Peter Pinnau <vdr@unterbrecher.de>
+
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 2 of the License, or
+(at your option) any later version.
+See the file COPYING for more information.
+
+Description
+-----------
+
+This plugin allows using a mouse to control almost each of VDR's functions 
+by mapping remote control keys to mouse actions. Observed are 
+relative wheel, x axis and y axis movement and up to eight buttons.
+
+You can specify different key bindings for several contexts of VDR (Normal, 
+Menu and Replay). The Replay context is even sensitive for the used plugin 
+(dvd, mp3, cdda, image). 
+
+A long push of the button toggles to an alternative key binding. The 
+alternative key binding can be active temporary or until next long
+button push (or switched off at all). The alternative key binding can be
+indicated by switching on the Scroll Lock led of the a given console device.
+
+Install
+-------
+- The mousemate plugin only supports vdr versions after 1.5.6 ! 
+
+- Extract and copy the plugin in /your vdr src/PLUGINS/src/mousemate-0.?.?
+  (when you read this, I think you already done it). 
+
+- Make a link in /your vdr src/PLUGINS/src: 
+  	ln -s mousemate-0.?.? mousemate
+
+- Go to /your vdr src/ and compile the plugin (and all other):
+  	make plugins
+  You may use 
+        make plugins MOUSEMATE_DEBUG=1
+  or
+        make plugins MOUSEMATE_EVENTCODE_SNIFFER=1
+  in order to get debug information or event codes, types and values of
+  your device.
+
+- Install plugins:
+  	make install-plugins
+
+- Run your vdr with the option:
+  	-P"mousemate -d /dev/input/event?"
+  You have to replace ? with the right event number (see below).
+  The vdr user must have root access to the uses devices.
+
+- Command line parameters:
+        -d DEV,   --device=DEV  use DEV as mouse device (default /dev/input/event1)
+        -c DEV,   --cdevice=DEV use DEV as console device (default /dev/input/event0)
+  
+
+
+How to find the right device
+----------------------------
+
+You can find the right device with following line:
+ 	cat /proc/bus/input/devices
+This should produce something like:
+
+  I: Bus=0011 Vendor=0001 Product=0001 Version=ab41
+  N: Name="AT Translated Set 2 keyboard"
+  P: Phys=isa0060/serio0/input0
+  S: Sysfs=/class/input/input0
+  H: Handlers=kbd event0
+  B: EV=120013
+  B: KEY=4 2000000 3802078 f840d001 f2ffffdf ffefffff ffffffff fffffffe
+  B: MSC=10
+  B: LED=7
+
+  I: Bus=0011 Vendor=0002 Product=0004 Version=0000
+  N: Name="GenPS/2 Genius <NULL>"
+  P: Phys=isa0060/serio1/input0
+  S: Sysfs=/class/input/input2
+  H: Handlers=mouse0 event2 ts0
+  B: EV=7
+  B: KEY=1f0000 0 0 0 0 0 0 0 0
+  B: REL=103
+
+In this case the fist device is a keyboard and the second one is a mouse. In 
+line "H: Handler=" you can read the right event (here event2). The line 
+"N: Name=" can give you a hint to choose the right mouse, if you have more than
+one installed.
+
+
+Setup menu parameters
+---------------------
+
+- Sensitivity wheel:
+  Sets the sensitivity of mouse wheel's turning actions (1-10).
+
+- Double click time:
+  Sets the time in milliseconds between two button clicks to be recognized
+  as a double click.
+
+- Alternative key binding
+  Switches the alternative key bindig on or off.
+
+  - Toggle click time:
+    Sets the time in milliseconds the button had to be pushed to toggle the 
+    key binding.
+
+  - Show toggle with scroll lock led:
+    Should the scroll lock led be used for indicating active toggle? 
+
+  - Toggle automatic off:
+    Should toggle mode be turn off automatically?
+
+    - Toggle off time (ms):
+      Sets the time in milliseconds after toggle is turned inactive. 
+
+- Extra pushed turn events:
+  Enable pushed turn events for:
+  * Left pushed,
+  * Right pushed,
+  * Side pushed,
+  * Extra pushed,
+  * Forward pushed,
+  * Back pushed,
+  * Task pushed
+
+  Not all events may be available with your mouse. 
+
+- Extra x,y turn events:
+  Enable x- and y axis for turn events.
+
+ - Sensitivity x :
+   Sets the sensitivity of mouse x axis' turning actions (1-1000).
+
+ - Sensitivity y :
+   Sets the sensitivity of mouse y axis' turning actions (1-1000).
+
+- DVD sensitive replay context
+  MP3 sensitive replay context
+  CDDA sensitive replay context
+  IMAGE sensitive replay context:
+  Enable specific plugin-senisitive contexts. If one context is disabled, 
+  the normal replay context is used for this plugin.
+
+- Context:
+  With this item you choose the current context to specify its key bindings.
+
+- Turn wheel left,
+  Turn wheel right,
+   Turn x axis left,
+   Turn x axis right,
+   Turn y axis left,
+   Turn y axis right,
+  Left click,
+  Left double-click,
+  Middle click,
+  Middle double-click,
+  Middle pushed turn left,
+  Middle pushed turn right,
+  Right click,
+  Right double-click,
+  Side click,
+  Side double-click,
+  Extra click,
+  Extra double-click,
+  Forward click,
+  Forward double-click,
+  Back click,
+  Back double-click,
+  Task click,
+  Task double-click
+   Left pushed turn left
+   Left pushed turn right
+   Right pushed turn left
+   Right pushed turn right
+   ... 
+
+  The keys that should be triggered at the different events in the
+  choosen context. Not all events may be available with your mouse.
+   
+  If the red button is pushed one4all is executed. That means the current
+  key binding is set for all contexts. This can really save time, if you have
+  a mouse with eight buttons ;).
+  
+
+TODO
+-----
+- save key bindings in extra setup file for easier handling
+- Plugin sensitve context for menu 
+- Sometimes key is sent while toggling
+- Immediately after automatic toggle it's not possible to toggle again
+- Improve setup menu (partly done ;))
+
+
+
+
+
+
