@@ -10,183 +10,186 @@ msgstr ""
 "Project-Id-Version: VDR 1.5.7\n"
 "Report-Msgid-Bugs-To: <jollyjoe80@yahoo.de>\n"
 "POT-Creation-Date: 2008-05-01 18:59+0200\n"
-"PO-Revision-Date: 2008-02-10 18:28+0100\n"
-"Last-Translator: Sean Carlos <seanc@libero.it>\n"
-"Language-Team: <vdr@linuxtv.org>\n"
+"PO-Revision-Date: 2008-12-20 21:03+0100\n"
+"Last-Translator: Diego Pierotto <vdr-italian@tiscali.it>\n"
+"Language-Team:  <vdr@linuxtv.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ISO-8859-15\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Italian\n"
+"X-Poedit-Country: ITALY\n"
 
 msgid "Controls VDR via a mouse"
-msgstr ""
+msgstr "Controlla VDR tramite un mouse"
 
 msgid "Sensitivity wheel"
-msgstr ""
+msgstr "Sensibilità rotellina"
 
 msgid "Double click time (ms)"
-msgstr ""
+msgstr "Tempo doppio click (ms)"
 
 msgid "Alternative key binding"
-msgstr ""
+msgstr "Associazione tasti alternativi"
 
 msgid "no"
-msgstr ""
+msgstr "no"
 
 msgid "yes"
-msgstr ""
+msgstr "sì"
 
 msgid "Toggle click time (ms)"
-msgstr ""
+msgstr "Tempo ripetizione click (ms)"
 
 msgid "Show toggle with scroll lock led"
-msgstr ""
+msgstr "Mostra rip. con led blocco scorr."
 
 msgid "Toggle automatic off"
-msgstr ""
+msgstr "Disattiva rip. in automatico"
 
 msgid "Toggle off time (ms)"
-msgstr ""
+msgstr "Tempo disattivazione ripetizione (ms)"
 
 msgid "Extra pushed turn events"
-msgstr ""
+msgstr "Altri eventi spostamento premuti"
 
 msgid "Extra x,y turn events"
-msgstr ""
+msgstr "Altri eventi spostamento x,y"
 
 msgid "Sensitivity x"
-msgstr ""
+msgstr "Sensibilità x"
 
 msgid "Sensitivity y"
-msgstr ""
+msgstr "Sensibilità y"
 
 msgid "DVD sensitive replay context"
-msgstr ""
+msgstr "Sensibilità DVD contesto riprod."
 
 msgid "MP3 sensitive replay context"
-msgstr ""
+msgstr "Sensibilità MP3 contesto riprod."
 
 msgid "CDDA sensitive replay context"
-msgstr ""
+msgstr "Sensibilità CDDA contesto riprod."
 
 msgid "IMAGE sensitive replay context"
-msgstr ""
+msgstr "Sensibilità IMAGE contesto riprod."
 
 msgid "Set keys for context"
-msgstr ""
+msgstr "Imposta tasti per contesto"
 
 msgid "Turn wheel left"
-msgstr ""
+msgstr "Sposta rotellina sinistra"
 
 msgid "Turn wheel right"
-msgstr ""
+msgstr "Sposta rotellina a destra"
 
 msgid "Turn x axis left"
-msgstr ""
+msgstr "Sposta asse x a sinistra"
 
 msgid "Turn x axis right"
-msgstr ""
+msgstr "Sposta asse x a destra"
 
 msgid "Turn y axis left"
-msgstr ""
+msgstr "Sposta asse y a sinistra"
 
 msgid "Turn y axis right"
-msgstr ""
+msgstr "Sposta asse y a destra"
 
 msgid "Left click"
-msgstr ""
+msgstr "Click sinistro"
 
 msgid "Left double-click"
-msgstr ""
+msgstr "Doppio click sinistro"
 
 msgid "Middle click"
-msgstr ""
+msgstr "Click centrale"
 
 msgid "Middle double-click"
-msgstr ""
+msgstr "Doppio click centrale"
 
 msgid "Middle pushed turn left"
-msgstr ""
+msgstr "Sposta a sinistra con centrale premuto"
 
 msgid "Middle pushed turn right"
-msgstr ""
+msgstr "Sposta a destra con centrale premuto"
 
 msgid "Right click"
-msgstr ""
+msgstr "Click destro"
 
 msgid "Right double-click"
-msgstr ""
+msgstr "Doppio click destro"
 
 msgid "Side click"
-msgstr ""
+msgstr "Click laterale"
 
 msgid "Side double-click"
-msgstr ""
+msgstr "Doppio click laterale"
 
 msgid "Extra click"
-msgstr ""
+msgstr "Click extra"
 
 msgid "Extra double-click"
-msgstr ""
+msgstr "Doppio click extra"
 
 msgid "Forward click"
-msgstr ""
+msgstr "Click anteriore"
 
 msgid "Forward double-click"
-msgstr ""
+msgstr "Doppio click anteriore"
 
 msgid "Back click"
-msgstr ""
+msgstr "Click posteriore"
 
 msgid "Back double-click"
-msgstr ""
+msgstr "Doppio click posteriore"
 
 msgid "Task click"
-msgstr ""
+msgstr "Click attività"
 
 msgid "Task double-click"
-msgstr ""
+msgstr "Doppio click attività"
 
 msgid "Left pushed turn left"
-msgstr ""
+msgstr "Sposta a sinistra con sinistro premuto"
 
 msgid "Left pushed turn right"
-msgstr ""
+msgstr "Sposta a destra con sinistro premuto"
 
 msgid "Right pushed turn left"
-msgstr ""
+msgstr "Sposta a sinistra con destro premuto"
 
 msgid "Right pushed turn right"
-msgstr ""
+msgstr "Sposta a destra con destro premuto"
 
 msgid "Side pushed turn left"
-msgstr ""
+msgstr "Sposta a sinistra con laterale premuto"
 
 msgid "Side pushed turn right"
-msgstr ""
+msgstr "Sposta a destra con laterale premuto"
 
 msgid "Extra pushed turn left"
-msgstr ""
+msgstr "Sposta a sinistra con extra premuto"
 
 msgid "Extra pushed turn right"
-msgstr ""
+msgstr "Sposta a destra con extra premuto"
 
 msgid "Forward pushed turn left"
-msgstr ""
+msgstr "Sposta a sinistra con anteriore premuto"
 
 msgid "Forward pushed turn right"
-msgstr ""
+msgstr "Sposta a destra con anteriore premuto"
 
 msgid "Back pushed turn left"
-msgstr ""
+msgstr "Sposta a sinistra con posteriore premuto"
 
 msgid "Back pushed turn right"
-msgstr ""
+msgstr "Sposta a destra con posteriore premuto"
 
 msgid "Task pushed turn left"
-msgstr ""
+msgstr "Sposta a sinistra con attività premuto"
 
 msgid "Task pushed turn right"
-msgstr ""
+msgstr "Sposta a destra con attività premuto"
 
 msgid "Set current key binding for all contexts?"
-msgstr ""
+msgstr "Impostare i tasti attuali per tutti i contesti?"
+
