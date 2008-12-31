@@ -115,7 +115,7 @@ active(false)
     int yalv;
     memset(evtype_bitmask, 0, sizeof(evtype_bitmask));
 
-    if (ioctl(fd, EVIOCGBIT(EV_KEY, KEY_MAX), evtype_bitmask) < 0)
+    if (ioctl(fd, EVIOCGBIT(EV_KEY, sizeof(evtype_bitmask)), evtype_bitmask) < 0)
     {
         esyslog("mousemate: %s: EVIOCGBIT failed: %s\n", MouseMateSetup.device, strerror(errno));
         return;
@@ -343,7 +343,11 @@ void cMouseMate::Toggle()
             ev.type = EV_LED;
             ev.code = LED_SCROLLL;
             ev.value = toggle;
-            write(fc, &ev, sizeof(struct input_event));
+            if (write(fc, &ev, sizeof(struct input_event)) < 0)
+            {
+               esyslog("mousemate: unable to write to console device %s: %s\n", MouseMateSetup.cdevice, strerror(errno));
+               return;
+            }
             close(fc);
         }
         else
