@@ -6,11 +6,12 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: VDR 1.5.7\n"
-"Report-Msgid-Bugs-To: <jollyjoe80@yahoo.de>\n"
-"POT-Creation-Date: 2008-05-01 18:22+0200\n"
+"Report-Msgid-Bugs-To: <see README>\n"
+"POT-Creation-Date: 2013-03-22 21:36+0100\n"
 "PO-Revision-Date: 2008-02-10 18:28+0100\n"
 "Last-Translator: Klaus Schmidinger <kls@cadsoft.de>\n"
 "Language-Team: <vdr@linuxtv.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=ISO-8859-15\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -188,5 +189,3 @@ msgstr "Task gedrückt rechts drehen"
 
 msgid "Set current key binding for all contexts?"
 msgstr "Aktuelle Tastenzuordnung für alle Kontexte setzen?"
-
-
