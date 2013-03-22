@@ -15,7 +15,7 @@
 #include "setup.h"
 
 
-static const char *VERSION        = "0.1.6";
+static const char *VERSION        = "0.1.7";
 static const char *DESCRIPTION    =  trNOOP("Controls VDR via a mouse");
 static const char *MAINMENUENTRY  = NULL;
 
