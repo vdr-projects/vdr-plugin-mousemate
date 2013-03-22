@@ -1,6 +1,10 @@
 VDR Plugin 'mousemate' Revision History
 ---------------------------------------
-2008-05-01: Version 0.1.6 
+
+2013-03-22: Version 0.1.7
+- Makefile for VDR 1.7.33+
+
+2008-05-01: Version 0.1.6
 - only vdr > 1.5.7 is supported
 - added one4all in setup menu
 
